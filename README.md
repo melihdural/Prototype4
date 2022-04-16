@@ -4,4 +4,7 @@
 
 This project is still under construction.
 
+## Until Now!
+
+We defined mobility for the player and moved the camera to determine the direction of movement.
 
