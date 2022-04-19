@@ -38,12 +38,12 @@ This project was carried out as part of the "unity junior programer pathway". Th
 
 
 4) Bug: 2 enemies are spawned in every wave;
-   *The mentioned bug was caused by line 52 of the SpawnManagerX script. In the for loop on this line, it was working as long as the variable i was less than 2. ***For the solution of the bug, I defined the enemiesToSpawn variable, which is the parameter of the SpawnEnemyWave method, in the for loop.***
+   * The mentioned bug was caused by line 52 of the SpawnManagerX script. In the for loop on this line, it was working as long as the variable i was less than 2. ***For the solution of the bug, I defined the enemiesToSpawn variable, which is the parameter of the SpawnEnemyWave method, in the for loop.***
 
 
 5) Bug: The enemy balls are not moving anywhere;
-   *The mentioned bug was due to the playerGoal object not being defined and it was giving a null reference error in Unity. ***For the solution of the bug, I defined the playerGoal object in the Start method in the EnemyX script.***
+   * The mentioned bug was due to the playerGoal object not being defined and it was giving a null reference error in Unity. ***For the solution of the bug, I defined the playerGoal object in the Start method in the EnemyX script.***
 
 
 6) Bonus: The player needs a turbo boost;
-   *Input.GetKey(Key.Code.Space) condition has been added for add force method in PlayerControllerX script.
+   * Input.GetKey(Key.Code.Space) condition has been added for add force method in PlayerControllerX script.
